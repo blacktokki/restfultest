@@ -8,7 +8,10 @@ public class WebController {
   
   @RequestMapping("/")
   public String root_test() throws Exception{
-      return "main";
+      
+	  return "main";
+	  
+	  
   }
 
 }
